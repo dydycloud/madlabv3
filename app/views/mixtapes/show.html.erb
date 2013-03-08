@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @mixtape.title %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @mixtape.content %>
+</p>
+
+<p>
+  <b>Source:</b>
+  <%= @mixtape.source %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @mixtape.author %>
+</p>
+
+
+<%= link_to 'Edit', edit_mixtape_path(@mixtape) %> |
+<%= link_to 'Back', mixtapes_path %>

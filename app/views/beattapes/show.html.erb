@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @beattape.title %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @beattape.content %>
+</p>
+
+<p>
+  <b>Source:</b>
+  <%= @beattape.source %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @beattape.author %>
+</p>
+
+
+<%= link_to 'Edit', edit_beattape_path(@beattape) %> |
+<%= link_to 'Back', beattapes_path %>
